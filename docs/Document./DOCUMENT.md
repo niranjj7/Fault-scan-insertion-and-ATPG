@@ -46,9 +46,9 @@ This RTL design represents the functional behavior before any DFT logic is inser
 The RTL design was read into Yosys using:
 
 - `read_verilog counter_4bit.v`
-- ![Reading RTL design](images/yosys_read)
+- ![Reading RTL design](imag/yosys_read)
 - `read_liberty -lib osu035_stdcells.lib`
-- ![Reading OSU035 standard cell library in Yosys](images/read_lib.png)
+- ![Reading OSU035 standard cell library in Yosys](imag/read_lib.png)
 
 
 The OSU035 liberty file contains 39 standard cell definitions, including flip-flops with asynchronous reset support.
